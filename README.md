@@ -2,6 +2,14 @@
 
 12306换乘方案查询，官方只提供一次换乘的查询，通过本程序可以查询任意次换乘的方案。
 
+![终端启动页面](https://github.com/yuanyuanzijin/12306-transfer/raw/master/imgs/1.png)
+
+![终端查询结果页面](https://github.com/yuanyuanzijin/12306-transfer/raw/master/imgs/2.png)
+
+![手机邮件通知](https://github.com/yuanyuanzijin/12306-transfer/raw/master/imgs/3.png)
+
+![手机邮件通知](https://github.com/yuanyuanzijin/12306-transfer/raw/master/imgs/4.png)
+
 ## 配置
 
 1. 运行环境：Python 3.7

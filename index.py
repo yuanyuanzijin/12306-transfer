@@ -1,6 +1,6 @@
 import time
 from operator import itemgetter
-from transfer import Transfer
+from transfer import Transfer, Mail
 from config import *
 
 
@@ -34,7 +34,6 @@ print("{:*^56}".format(""))
 print('\n')
 
 if EMAIL_ENABLE:
-    from mail_util import Mail
     content = f"出发日期：{DATE}<br />" \
               f"始发城市：{TRANSFER_CITIES[0]}<br />" \
               f"终到城市：{TRANSFER_CITIES[-1]}<br />" \
