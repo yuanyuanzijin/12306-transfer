@@ -1,0 +1,43 @@
+# 出发日期
+DATE = input("请输入查询日期（如：2019-10-07）：")
+
+# 换乘城市列表（包括起点和终点，中间的顺序必须按照列车前进的方向）
+TRANSFER_CITIES = ["大连", "营口", "沈阳", "盘锦", "锦州", "山海关", "秦皇岛", "天津", "北京"]
+
+# 最大换乘次数
+MAX_TRANSFER = 3
+
+# 期望最长用时（小时级别）
+EXPECT_TOTAL_TIME = 8
+
+# 开启邮箱提醒
+EMAIL_ENABLE = True
+
+# 接收提醒的邮箱
+RECEIVE_EMAIL = "******"
+
+# 邮件最小发送间隔（间隔内的多条记录可以一起发送）
+MAIL_MIN_INTERVAL = 10
+
+# 初始缓存时间
+EXPIRE_TIME = 20
+
+# 最短缓存时间（防止缓存时间过小或为负数）
+MIN_EXPIRE_TIME = 5
+
+# 缓存时间自适应
+AUTO_EXPIRE = True
+
+# 网络重试次数
+RETRY_TIMES = 3
+
+# 日志路径
+LOG_DIR = './logs/'
+
+
+# ****** 邮箱配置 自行修改 ****** #
+MAIL_HOST = "smtp.exmail.qq.com"
+MAIL_PORT = 465
+MAIL_USER = "******"
+MAIL_PASS = "******"
+SENDER_NAME = "12306换乘查询服务"

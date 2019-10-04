@@ -1,0 +1,9 @@
+/.vscode
+/.idea
+/__pycache__
+/logs
+/v1
+mail_api_util.py
+transfer.db
+transfer.db-journal
+config.py
