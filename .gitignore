@@ -3,6 +3,7 @@
 /__pycache__
 /logs
 /v1
+/origin_imgs
 mail_api_util.py
 transfer.db
 transfer.db-journal
